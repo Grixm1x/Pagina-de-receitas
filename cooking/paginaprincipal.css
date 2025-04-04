@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: rgba(255, 255, 255, 0.92);
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+}
+
+
+main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+header {
+    padding: 1rem;
+    background-color: white;
+    text-align: center;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+
+}
+th, td {
+    border: 1px solid black; 
+    padding: 0.5px;
+    text-align: center;
+   
+}
+th {
+    background-color: #f2f2f2;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 1.5rem;
+}
+li {
+    padding: 0.2rem;
+}
+
+img {
+    width: 25%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+    position: relative;
+    right: 100px; 
+    left: 300px;
+}
+
+
+footer {
+    background-color: #000;
+    padding: 2rem;
+    text-align: center;
+    color: white;
+}
+
+footer a {
+    text-decoration: none;
+    color: pink;
+}
+fieldset{
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 1.2rem;
+    margin: 0;
+   
+}
+legend {
+    padding: 0 0.8rem;
+}
+textarea {
+    background-color: transparent;
+    outline: none;
+    border-radius: 5px;
+    border: 2px solid black;
+}
+input[type="radio"] ,label, input[type="checkbox"]{
+    accent-color: #000;
+
+}
+
+input[type="text"], input[type="number"], input[type="email"] {
+    width: 100%;
+    padding: 1.3rem;
+    border: 2px solid black;
+    outline: none;
+    border-radius: 5px;
+    background-color: transparent;
+   
+}
+input::placeholder {
+    color: #cbbba7;
+}
+button{
+    padding: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+
+}
+.botao{
+    cursor: pointer;
+}
+.botao:hover{
+    color: blue;
+}
+.botao1{
+    cursor: pointer
+
+}
+.botao1:hover{
+    color: pink;
+}
